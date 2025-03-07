@@ -1,0 +1,43 @@
+# Ignore virtual environments
+myenv/
+venv/
+env/
+ENV/
+.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database files
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore Django logs & settings
+*.log
+local_settings.py
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Docker files
+docker-compose.yaml
+Dockerfile
+
+# Ignore static and media files (Django)
+static/
+media/
+
+# Ignore PostgreSQL data folder (If using Postgres)
+postgres/
+
+# Ignore Git and unnecessary folders
+.git/

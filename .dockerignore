@@ -1,0 +1,31 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+myenv/
+venv/
+env/
+ENV/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore database files
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore Django logs and settings
+*.log
+local_settings.py
+
+# Ignore unnecessary folders (to keep Docker lightweight)
+node_modules/
+static/
+media/
+postgres/
